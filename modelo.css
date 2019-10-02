@@ -102,7 +102,7 @@ body{
     top: 62px;
     width: 100%;
 }
-
+/*
 .footer {
     margin-top: 330px;
     padding: 30px;
@@ -112,12 +112,12 @@ body{
     background-color: rgb(19, 141, 23);
     color: white;
     text-align: center;
-  }
-
+}
+*/
   .caixa{
       margin-left: 25%;
       margin-right: 20%;
-      margin-top: 6%;
+      margin-top: 2%;
       text-align: center;
       background-color: rgb(255, 255, 255);
       padding: 50px;
@@ -138,3 +138,20 @@ body{
 }
 
 
+.cabecalho {
+  grid-area: header;
+}
+
+.principal {
+  height: (100hv-180px);
+  grid-area: main;
+  padding: 150px;
+}
+
+.rodape {
+  grid-area: footer;
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
